@@ -1,0 +1,177 @@
+*{
+    overflow-x: hidden;
+    font-family: 'Robot', sans-serif;
+}
+body{
+    background-color:rgb(223, 219, 213);
+}
+section{
+    padding: 150px;
+}    
+.heading{
+    text-align: center;
+    color:rgb(61, 69, 77);
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 55 55px;
+}
+header{
+    display: flex;
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 605px;
+    padding-left: 605px;
+    z-index: 10;
+    background-color: rgb(223, 219, 213);
+    background-size: cover;
+    top: 0px;
+    border-bottom:solid gray 1px;
+}
+.start{
+    height: 28rem;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/download.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.start .intro{
+    text-align: center;
+}
+.start h3{
+    font-size: 40px;
+    padding-top: 10rem;
+    text-transform:capitalize;
+    color: cornsilk;
+    opacity: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: lightslategray;
+    padding: 0px;
+}
+.about{
+    padding-bottom: 0px;
+}
+.about .image1{
+    flex-basis: 50%;
+    float: left;
+    position: relative;
+}
+.about .who{
+    flex-basis: 50%;;
+    float: right;
+}
+.about .who h3{
+    font-size: 32px;
+    color:cornsilk;
+}
+.about .who p{
+    font-size: 20px;
+    color:white;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+
+.mem .all{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+    width:fit-content;
+    flex-wrap: wrap;
+
+}
+.mem .all .emem{
+    height: 380px;
+	width: 280px;
+	padding: 20px 35px;
+	background: lightslategray;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    display: inline;
+}
+.mem .all .emem .round{
+    border-radius: 50%;
+}
+
+.mem .all .emem h2{
+    font-size: 22px;
+    color:cornsilk;
+}
+
+.mem .all .emem p{
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 12px 25px;
+}
+.mem .all .emem .button{
+    background-color:rgb(50, 57, 65);
+	color: cornsilk;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 22px;
+	transition: .4s; 
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+.mem .all .emem .button:hover{
+	background-color: transparent;
+	border: 2px solid rgb(50, 57, 65);
+	cursor: pointer;
+}
+
+.social{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	background:lightslategray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer h2{
+    font-size: 30px;
+    color:cornsilk;
+    font-weight: bold;
+}
+footer p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 12px 25px;
+}
+
+.social .button{
+    background-color:rgb(50, 57, 65);
+	color: cornsilk;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+.social .button:hover{
+	background-color: transparent;
+	border: 2px solid rgb(50, 57, 65);
+	cursor: pointer;
+}
